@@ -1,0 +1,68 @@
+<!-- Question "7. Student Registration Form" -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+  </head>
+  <body>
+    <h1>Student Registration Form</h1>
+    <div>
+        <i>*Filling all the fields below are required</i>
+      <form action="submit">
+        <h3>Personal Details</h3>
+        <label for="">Enter full name: </label
+        ><input type="text" name="fullname" id="fname" placeholder="Surname-Name-MiddleName" required/><br /><br />
+        <label for="">Enter DOB: </label>
+        <input type="date" name="dateOfBirth" id="dob" placeholder="Enter Date of birth" required/><br /><br />
+        <label for="">Hometown: </label
+        ><input type="text" name="hometown" id="htown" placeholder="Enter your hometown" required/><br /><br />
+
+        <label for="">Gender: </label>
+        <input type="radio" name="gender" id="Mgender" value="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="Fgender" value="female"><label for="female">Female</label>
+        <br />
+        <hr />
+        <h3>Academic Details</h3>
+        <label for="">10<sup>th</sup> Percentage: </label
+        ><input type="number" min="60" max="100" placeholder="%" name="percentage" id="10thPercent" required/> <br /><br />
+        <label for="">10<sup>th</sup> Pass-Out Year: </label
+        ><input
+          type="number"
+          min="2015"
+          max="2022"
+          placeholder="Pass-out year" name="passingYear" id="10thPassingYr" required/><br /><br />
+
+        <label for="">12<sup>th</sup> Percentage: </label
+        ><input type="number" min="50" max="100" placeholder="%" name="percentage" id="12thPercent" required/> <br /><br />
+        <label for="">12<sup>th</sup> Pass-Out Year: </label
+        ><input
+          type="number"
+          min="2015"
+          max="2022"
+          placeholder="Pass-out year" name="passingYear" id="12thPassingYr"  required/><br /><br />
+
+        <label for="">Programming Languages Known: </label>
+        <input type="checkbox" name="c-progs" id="c" /><label for=""
+          >C Programming</label
+        >
+        <input type="checkbox" name="c++" id="cpp" /><label for=""
+          >C++ Programming</label
+        >
+        <input type="checkbox" name="python" id="py" /><label for=""
+          >Python Programming</label
+        >
+        <input type="checkbox" name="javascript" id="js" /><label for=""
+          >Javascript</label
+        ><br /><br />
+        <button type="submit" value="submit">Submit</button>
+        <input type="reset" value="Reset" />
+
+        <hr />
+      </form>
+    </div>
+  </body>
+</html>
