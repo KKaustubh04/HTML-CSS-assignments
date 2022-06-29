@@ -3,6 +3,7 @@ body {
     font-size: 14px;
 }
 .container {
+  margin: 0 auto;
   display: grid;
   height: 755px;
   width: 1412px;
