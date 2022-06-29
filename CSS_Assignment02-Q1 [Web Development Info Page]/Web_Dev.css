@@ -1,0 +1,63 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.container {
+  border: 1px solid black;
+  margin: 0 auto; /*to keep the container in center*/
+  width: 600px;
+  height: 1000px;
+}
+
+.tbls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 160px;
+}
+
+.sports {
+  height: 160px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+}
+
+.fruits {
+  height: 160px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+  list-style-type: square;
+}
+
+.players {
+  height: 160px;
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+  list-style-type: circle;
+}
+
+.subjects {
+  height: 160px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+}
+
+.topics {
+  height: 160px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+}
+
+.employees {
+  height: 160px;
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+}
+
+.content {
+  margin-left: 10px;
+  margin-right: 10px;
+}
